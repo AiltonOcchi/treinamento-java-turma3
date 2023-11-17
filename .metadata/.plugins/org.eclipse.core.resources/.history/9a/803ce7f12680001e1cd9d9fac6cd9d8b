@@ -1,0 +1,25 @@
+package br.com.treinamento;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		
+		int diaSemana = 4;
+		
+		String diaSemanaTexto = "";
+		
+		switch (diaSemana) {
+		case 1:
+			System.out.println("Segunda-feira");
+			break;
+			
+		case 2:
+			System.out.println("Terça-feira");
+			
+		default:
+			break;
+		}
+
+	}
+
+}

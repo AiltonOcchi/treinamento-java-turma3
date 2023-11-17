@@ -1,0 +1,26 @@
+package br.com.treinamento;
+
+public class Conta {
+	
+	//Atributos
+	String agencia;
+	int numeroConta;
+	double saldo;
+	
+	// Métodos
+	void transferir(){
+		
+	}
+	
+	void sacar(double valor){
+		
+	}
+	
+	void depositar(double valor) {
+		saldo = saldo+valor;
+		
+		System.out.println("Depósito de: R$"+ valor + 
+				"efetuado com sucesso!");
+	}
+
+}

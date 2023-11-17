@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.net.http.HttpTimeoutException"/>
+    <fullyQualifiedTypeName name="br.com.treinamento.Pessoa"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="br.com.treinamento.Carro"/>
+    <fullyQualifiedTypeName name="br.com.treinamento.Cliente"/>
+    <fullyQualifiedTypeName name="br.com.treinamento.Conta"/>
+</qualifiedTypeNameHistroy>

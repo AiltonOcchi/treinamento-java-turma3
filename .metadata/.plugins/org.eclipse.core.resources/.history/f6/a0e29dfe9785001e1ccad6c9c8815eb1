@@ -1,0 +1,32 @@
+package br.com.treinamento;
+
+public class Conta {
+	
+	//Atributos
+	String agencia;
+	int numeroConta;
+	double saldo;
+	
+	// Métodos
+	void transferir(Conta contaDestino, double valor){
+		
+		if(saldo>=valor) {		
+			saldo = saldo - valor;
+			contaDestino.saldo = contaDestino.saldo + valor;			
+		}else {
+			System.out.println("Saldo insuficiente");
+		}
+		
+	}
+	
+	void sacar(double valor){
+		saldo = saldo-valor;
+		System.out.println("Saque efetuado com sucesso!");
+	}
+	
+	void depositar(double valor) {
+		saldo = saldo+valor;
+		System.out.println("Depósito efetuado com sucesso!");
+	}
+
+}

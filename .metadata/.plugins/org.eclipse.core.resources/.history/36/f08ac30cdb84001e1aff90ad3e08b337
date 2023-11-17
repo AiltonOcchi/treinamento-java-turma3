@@ -1,0 +1,16 @@
+package br.com.treinamento;
+
+public class Carro {
+	
+	String marca;
+	String cor;
+	String modelo;
+	int ano;
+	
+	void ligar() {
+		
+		
+		
+	}
+
+}

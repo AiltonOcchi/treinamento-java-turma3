@@ -1,0 +1,13 @@
+package br.com.treinamento;
+
+public class While {
+
+	public static void main(String[] args) {
+		
+		int idade = 15;
+		
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package br.com.treinamento;
+
+public class CondicionalTernaria {
+	
+	int idade = 16;
+	
+	
+	
+}

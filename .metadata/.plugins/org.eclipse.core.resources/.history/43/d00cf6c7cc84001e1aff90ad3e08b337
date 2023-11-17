@@ -1,0 +1,22 @@
+package br.com.treinamento;
+
+public class EnhancedFor {
+
+	public static void main(String[] args) {
+		
+		int[] array = {10,20,30,40,60,70};
+		
+		for(int i : array) {
+			
+			System.out.println("Valor da soma:" + soma);
+			/*
+			int soma = i + 5;
+			
+			*/
+		}
+		
+		
+
+	}
+
+}

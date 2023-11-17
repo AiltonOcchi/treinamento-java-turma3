@@ -1,0 +1,22 @@
+package br.com.treinamento;
+
+public class Conta {
+	
+	String agencia;
+	int numeroConta;
+	double saldo;
+	Cliente titular;
+	
+	void transferir(Conta contaDestino, double valor){
+		
+		contaDestino.saldo = contaDestino.saldo+valor;
+		saldo = saldo -valor;
+	}
+	
+	void sacar(){		
+	}
+	
+	void depositar() {		
+	}
+
+}
