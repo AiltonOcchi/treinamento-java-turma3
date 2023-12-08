@@ -10,6 +10,8 @@ public class Principal {
 		Integer soma = Calculos.somarDoisNumeros(5, 20);
 		
 		System.out.println("O resultado é: "+soma);
+		
+		var nome = "Ailton";
 
 	}
 

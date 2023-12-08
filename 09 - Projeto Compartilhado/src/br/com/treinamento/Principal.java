@@ -6,7 +6,7 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
-		Integer area = Calculos.caculaAreaQuadrado(25, 15);
+		Integer area = Calculos.somarDoisNumeros(25, 15);
 		
 		System.out.println("A área é: "+area);
 
